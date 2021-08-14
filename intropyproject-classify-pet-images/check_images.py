@@ -25,7 +25,6 @@
 
 # Imports python modules
 from time import time, sleep
-
 # Imports print functions that check the lab
 from print_functions_for_lab_checks import *
 
@@ -117,6 +116,7 @@ def main():
     print_results(results, results_stats, None, True, True)
     
     # TODO 0: Measure total program runtime by collecting end time
+    #sleep(1)
     end_time = time()
     
     # TODO 0: Computes overall runtime in seconds & prints it in hh:mm:ss format
